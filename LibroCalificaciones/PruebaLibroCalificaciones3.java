@@ -11,7 +11,7 @@ Scanner entrada = new Scanner( System.in );
 // crea un objeto LibroCalificaciones3 y lo asigna a miLibroCalificaciones3
 LibroCalificaciones3 miLibroCalificaciones3 = new LibroCalificaciones3();
 
-alificaciones3.obtenerNombreDelCurso());
+miLibroCalificaciones3.obtenerNombreDelCurso();
 // pide y lee el nombre del curso
 System.out.println( "Escriba el nombre del curso:" );
 String elNombre = entrada.nextLine(); // lee una linea de texto
