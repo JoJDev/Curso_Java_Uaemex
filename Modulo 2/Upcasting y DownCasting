@@ -1,0 +1,8 @@
+upcasting: quitar metodos y atributos para que se comporte como la clase padre
+
+Downcasting: hacer un objeto obtenga nuevos atributos y metodos declarandola como clase hija
+
+ejemplo upcasting:	Figura fig = new Circulo();
+
+ejemplo downcasting: Gato g = (Gato)a;   (Animal a = new Gato();)
+					animal m = new mamifero(); => Gato g = (Gato)m;  
